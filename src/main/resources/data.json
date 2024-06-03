@@ -1,0 +1,1036 @@
+{
+  "exchanges": [
+    {
+      "timestamp": "2024-05-30T11:52:10.250250100Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game?id=bb7f142b-aeb5-4dc2-90d7-531bb64aaec0",
+        "method": "GET",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "application/json"
+          ],
+          "Transfer-Encoding": [
+            "chunked"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:52:10 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.021719S"
+    },
+    {
+      "timestamp": "2024-05-30T11:52:06.784397900Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game?id=ae12a535-587c-4d21-a83b-c54dc5f4a48e",
+        "method": "GET",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 400,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "65"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:52:06 GMT"
+          ],
+          "Connection": [
+            "close"
+          ]
+        }
+      },
+      "timeTaken": "PT0.1497207S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    },
+    {
+      "timestamp": "2024-05-30T11:51:52.163591700Z",
+      "request": {
+        "uri": "http://localhost:8080/api/v1/game",
+        "method": "POST",
+        "headers": {
+          "host": [
+            "localhost:8080"
+          ],
+          "connection": [
+            "keep-alive"
+          ],
+          "content-length": [
+            "150"
+          ],
+          "sec-ch-ua": [
+            "\"Brave\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+          ],
+          "accept": [
+            "*/*"
+          ],
+          "content-type": [
+            "application/json"
+          ],
+          "sec-ch-ua-mobile": [
+            "?0"
+          ],
+          "user-agent": [
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+          ],
+          "sec-ch-ua-platform": [
+            "\"Windows\""
+          ],
+          "sec-gpc": [
+            "1"
+          ],
+          "accept-language": [
+            "es-ES,es"
+          ],
+          "origin": [
+            "http://localhost:8080"
+          ],
+          "sec-fetch-site": [
+            "same-origin"
+          ],
+          "sec-fetch-mode": [
+            "cors"
+          ],
+          "sec-fetch-dest": [
+            "empty"
+          ],
+          "referer": [
+            "http://localhost:8080/swagger-ui/index.html"
+          ],
+          "accept-encoding": [
+            "gzip, deflate, br, zstd"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": [
+            "text/plain;charset=UTF-8"
+          ],
+          "Content-Length": [
+            "36"
+          ],
+          "Date": [
+            "Thu, 30 May 2024 11:51:52 GMT"
+          ],
+          "Keep-Alive": [
+            "timeout=60"
+          ],
+          "Connection": [
+            "keep-alive"
+          ]
+        }
+      },
+      "timeTaken": "PT0.2126561S"
+    }
+  ]
+}
